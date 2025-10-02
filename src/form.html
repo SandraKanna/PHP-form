@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Loka – Demo Request</title>
+</head>
+<body>
+  <h1>Loka – Demo Request</h1>
+
+  <form method="post" action="demo_request.php">
+    <label>
+      Full Name*:
+      <input type="text" name="name" required>
+    </label><br><br>
+
+    <label>
+      Email*:
+      <input type="email" name="email" required>
+    </label><br><br>
+
+    <label>
+      Age:
+      <input type="number" name="age" min="15" max="65">
+    </label><br><br>
+
+    <label>
+      Language Level*:
+      <select name="level" required>
+        <option value="">-- select --</option>
+        <option value="A1">A1</option>
+        <option value="A2">A2</option>
+        <option value="B1">B1</option>
+        <option value="B2">B2</option>
+        <option value="C1">C1</option>
+        <option value="C2">C2</option>
+      </select>
+    </label><br><br>
+
+    <label>
+      Country*:
+      <select name="country">
+        <option value="">-- select --</option>
+        <option value="JP">JP</option>
+        <option value="FR">FR</option>
+        <option value="UK">UK</option>
+        <option value="BR">BR</option>
+        <option value="US">US</option>
+        <option value="AUS">AUS</option>
+      </select>
+    </label><br><br>
+
+    <label>
+      Subscribe to newsletter:
+      <input type="checkbox" name="newsletter" value="1">
+    </label><br><br>
+
+    <label>
+      Comment:
+      <textarea name="comment" rows="4" cols="40"></textarea>
+    </label><br><br>
+
+    <label>Preferred Contact Method:</label><br>
+    <input type="radio" name="contact" value="email" checked> Email<br>
+    <input type="radio" name="contact" value="phone"> Phone<br><br>
+
+    <button type="submit">Send</button>
+  </form>
+</body>
+</html>
