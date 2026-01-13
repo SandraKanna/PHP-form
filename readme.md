@@ -1,6 +1,6 @@
 # PHP Form Demo (Docker + SQLite)
 
-This is a **basic PHP form demo** inspired by the W3Schools tutorial, but reorganized into separate files (.html, .php for better organization) with Docker support and SQLite persistence.  
+This is a **basic PHP form demo** inspired by the [W3Schools tutorial](https://www.w3schools.com/php/php_forms.asp), but reorganized into separate files (.html, .php for better organization) with Docker support and SQLite persistence.  
 
 It demonstrates:
 
